@@ -1,0 +1,98 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/clarito</item>
+        <item name="colorPrimaryDark">@color/botones</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="AuthTitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">32dp</item>
+        <item name="android:textSize">60sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:text">@string/app_name</item>
+
+    </style>
+
+    <style name="AuthFieldContainer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_below">@id/subtitle</item>
+        <item name="android:layout_marginTop">@dimen/login_vertical_margin</item>
+        <item name="android:layout_marginLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/activity_horizontal_margin</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:paddingLeft">@dimen/login_horizontal_padding</item>
+        <item name="android:paddingRight">@dimen/login_horizontal_padding</item>
+        <item name="android:paddingTop">@dimen/login_vertical_padding</item>
+        <item name="android:paddingBottom">@dimen/login_vertical_padding</item>
+    </style>
+
+    <style name="MyStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/text_margin</item>
+    </style>
+
+    <style name="MyViewok">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:paddingBottom">@dimen/activity_vertical_margin</item>
+        <item name="android:paddingLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingRight">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingTop">@dimen/activity_vertical_margin</item>
+    </style>
+
+    <style name="MYIV">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@id/keysLayout</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:contentDescription">@string/buttonDivider</item>
+    </style>
+    <style name="NoActionBar" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/botones</item>
+        <item name="colorPrimaryVariant">@color/clarito</item>
+        <item name="colorOnPrimary">@color/amarillo</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/botones</item>
+        <item name="colorSecondaryVariant">@color/clarito</item>
+        <item name="colorOnSecondary">@color/marronosc</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="ActionBar" parent="Theme.MaterialComponents.DayNight">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/clarito</item>
+        <item name="colorPrimaryVariant">@color/marronosc</item>
+        <item name="colorOnPrimary">@color/clarito</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/botones</item>
+        <item name="colorSecondaryVariant">@color/clarito</item>
+        <item name="colorOnSecondary">@color/marronosc</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="ButtonStraight" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/amarillo</item>
+    </style>
+
+    <style name="ButtonOutlined" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:textColor">@color/marronosc</item>
+        <item name="cornerRadius">30dp</item>
+        <item name="strokeColor">@color/amarillo</item>
+    </style>
+</resources>

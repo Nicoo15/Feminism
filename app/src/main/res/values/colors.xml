@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="marronosc">#401B25</color>
+    <color name="clarito">#F2B988</color>
+    <color name="colorAccent">#F2A477</color>
+    <color name="botones">#8C4949</color>
+    <color name="amarillo">#C2BB9C</color>
+    <color name="primary_dark">#5D4037</color>
+    <color name="morado">#4A1192</color>
+    <color name="azul">#117092</color>
+    <color name="background_purple">#55377C</color>
+    <color name="apptheme_color">#55377c</color>
+    <color name="light_grey">#BBBBBB</color>
+    <color name="light_purple_button">#E1D2F3</color>
+    <color name="pressed_purple_button">#BA9DDA</color>
+    <color name="focused_purple_button">#D6C3ED</color>
+    <color name="textColor">#351757</color>
+    <color name="contrastColor">#FFC700</color>
+</resources>

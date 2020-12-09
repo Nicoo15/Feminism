@@ -1,0 +1,32 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Feminism</string>
+
+        <string name="title_activity_login">Registrarse</string>
+
+
+        <string name="prompt_email">Email</string>
+        <string name="prompt_password">Contraseña (optional)</string>
+        <string name="action_sign_in">Registrarse o Iniciar sesión</string>
+        <string name="action_sign_in_short">Registrarse o Iniciar sesión</string>
+        <string name="error_invalid_email">Este email es inválido</string>
+        <string name="error_invalid_password">Contraseña demasiado corta</string>
+        <string name="error_incorrect_password">Contraseña incorrecta</string>
+        <string name="error_field_required">Se requiere completar campo</string>
+        <string name="permission_rationale">"Se necesitan permisos de contactos para proporcionar correo electrónico."
+    </string>
+        <string name="title_activity_signup">¿Todavia no tienes una cuenta? Registrate</string>
+        <string name="perder_contrasena" tools:ignore="DuplicateDefinition">¿Olvidaste la contraseña?</string>
+        <string name="backimage_description">copa</string>
+        <string name="buttonDivider">Divisor de botones</string>
+        <string name="subtitle_string">mejor noche</string>
+        <string name="username_hint">Usuario</string>
+        <string name="LoginButton_text">Iniciar sesión</string>
+        <string name="signup_text">¿Todavia no tienes una cuenta? Registrate</string>
+        <string name="password_hint">Contraseña</string>
+        <string name="email_hint">Email</string>
+        <string name="email_user_hint">Email o usuario</string>
+        <string name="signup_button_label">Registrar</string>
+        <string name="cancel_button_label">Cancelar</string>
+        <string name="slogan">Por un futuro mejor para tod@s</string>
+
+    </resources>
