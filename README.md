@@ -5,5 +5,10 @@
 Splash | Log In | Sign Up
 -------|-------|------
 
-![]<img src="IMG/splash.png"> | ![]<img src="IMG/login.png">  | ![]<img src="IMG/sigup.png">
-[Nicoo15] (https://github.com/Nicoo15/Feminism.git)
+![](img/splash.png) | ![](img/Login.png)  | ![](img/Register.png)
+Alert | Expanded | Main
+-------|-------|------
+![](img/alert.png) | ![](img/expanded.png) | ![](img/main.png)
+
+Main2 |
+![]<img src="IMG/main2.png">

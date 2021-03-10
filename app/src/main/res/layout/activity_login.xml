@@ -73,15 +73,15 @@
 
 <!--Texto de registrarse-->
     <TextView
+        android:id="@+id/mSignUpTextview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/mSignUpTextview"
+        android:layout_below="@+id/loginbutton"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="240dp"
         android:clickable="true"
         android:text="@string/signup_text"
-        android:layout_marginTop="12dp"
-        android:layout_below="@+id/loginbutton"
-        android:layout_centerHorizontal="true"
-        android:textColor="@android:color/white"
-        />
+        android:textColor="@android:color/white" />
 
 </RelativeLayout>
