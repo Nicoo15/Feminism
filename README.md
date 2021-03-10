@@ -5,10 +5,11 @@
 Splash | Log In | Sign Up
 -------|-------|------
 
-![](img/splash.png) | ![](img/Login.png)  | ![](img/Register.png)
+![](IMG/splash.png) | ![](IMG/Login.png)  | ![](IMG/Register.png)
 Alert | Expanded | Main
 -------|-------|------
-![](img/alert.png) | ![](img/expanded.png) | ![](img/main.png)
+![](IMG/alert.png) | ![](IMG/expanded.png) | ![](IMG/main.png)
 
-Main2 |
-![]<img src="IMG/main2.png">
+Main2 |  |
+-------|-------|------
+![](IMG/main2.png")
