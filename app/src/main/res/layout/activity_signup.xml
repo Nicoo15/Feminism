@@ -1,4 +1,4 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -87,7 +87,8 @@
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
         android:background="@color/botones"
-        android:textColor="@color/clarito" />
+        android:textColor="@color/clarito"
+        style="@style/ButtonStraight"/>
 <!--Boton de cancelar-->
     <Button
         android:id="@+id/cancelbutton"
@@ -96,7 +97,7 @@
         android:layout_alignParentRight="true"
         android:layout_toRightOf="@id/buttonDivider"
         android:layout_marginLeft="0dp"
-
+        style="@style/ButtonStraight"
         android:layout_marginRight="@dimen/activity_horizontal_margin"
         android:textSize="13sp"
         android:layout_height="wrap_content"

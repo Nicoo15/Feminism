@@ -2,6 +2,7 @@
     <string name="app_name">Feminism</string>
 
         <string name="title_activity_login">Registrarse</string>
+        <string name="title_activity_scrolling">c</string>
 
 
         <string name="prompt_email">Email</string>

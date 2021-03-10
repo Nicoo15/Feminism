@@ -87,7 +87,7 @@
     </style>
 
     <style name="ButtonStraight" parent="Widget.MaterialComponents.Button">
-        <item name="backgroundTint">@color/amarillo</item>
+        <item name="backgroundTint">@color/botonpulsado</item>
     </style>
 
     <style name="ButtonOutlined" parent="Widget.MaterialComponents.Button.OutlinedButton">

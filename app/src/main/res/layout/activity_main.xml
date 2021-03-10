@@ -2,60 +2,112 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main_context"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity2">
+    tools:context=".MainActivity"
+    tools:overrideLibrary="com.alespero.expandablecardview">
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/myswipe"
+        tools:ignore="MissingConstraints">
+        <TextView
+            android:id="@+id/taporswipetext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="long tap or swipe to refresh"
+            android:textColor="@color/background_purple"
+            android:textSize="24sp"
+            android:textStyle="normal"
+            />
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
 
     <!--Foto de avatar-->
-    <ImageView
-        android:id="@+id/imageViewAvatar"
-        android:layout_width="225dp"
-        android:layout_height="164dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.208" />
 
     <!--Posiciones de la imagen y boton alineados-->
+
+    <ImageView
+        android:id="@+id/imageViewAvatar"
+        android:layout_width="259dp"
+        android:layout_height="167dp"
+        android:layout_marginTop="105dp"
+        android:layout_marginBottom="75dp"
+        android:src="@drawable/yo"
+        app:layout_constraintBottom_toTopOf="@+id/BotonCambiante"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideLine"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.15"
-        ></androidx.constraintlayout.widget.Guideline>
+        app:layout_constraintGuide_percent="0.15"></androidx.constraintlayout.widget.Guideline>
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideLine2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.85"
-        ></androidx.constraintlayout.widget.Guideline>
+        app:layout_constraintGuide_percent="0.85"></androidx.constraintlayout.widget.Guideline>
 
     <!--Boton para ir a MainActivity2-->
     <Button
 
         android:id="@+id/BotonCambiante"
-        android:layout_width="wrap_content"
+        style="@style/ButtonStraight"
+        android:layout_width="208dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="161dp"
-        android:layout_marginTop="317dp"
-        android:layout_marginEnd="162dp"
         android:layout_marginBottom="366dp"
-        android:background="@color/botones"
-        android:text="Inicio"
+        android:background="@drawable/bordes_redondos"
+        android:text="Ir a main 2"
+        android:backgroundTint="@color/botones"
+        android:onClick="AbrirMainActivity2"
         android:textColor="@color/clarito"
+        android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
-        android:layout_marginLeft="161dp"
-        android:layout_marginRight="162dp"
-        style="@style/ButtonStraight"/>
+        app:layout_constraintTop_toBottomOf="@+id/imageViewAvatar" />
+
+    <com.alespero.expandablecardview.ExpandableCardView
+        android:id="@+id/profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/clarito"
+        app:animationDuration="300"
+        app:expandOnClick="true"
+        app:icon="@drawable/logof"
+        app:inner_view="@layout/expandable_view"
+        app:startExpanded="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:title="Passengers"
+        tools:ignore="MissingClass,MissingConstraints" />
+    <!--
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/myswipe"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/taporswipetext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textColor="@color/amarillo"
+            android:textSize="24sp"
+            android:textStyle="normal" />
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    -->
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
