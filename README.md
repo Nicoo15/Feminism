@@ -3,12 +3,12 @@
 [Nicoo15_](https://github.com/Nicoo15)
 
 --------|--------
-![](IMG/splash.png) | ![](IMG/Login.png)
+![](IMG/splash.PNG) | ![](IMG/Login.PNG)
  --------|--------
-![](IMG/Register.png) | ![](IMG/main.png)
+![](IMG/Register.PNG) | ![](IMG/main.PNG)
 
 --------|--------
-![](IMG/main2.png) | ![](IMG/alert.png)
+![](IMG/main2.PNG) | ![](IMG/alert.PNG)
 
 --------|--------
-![](IMG/expanded.png) | 
+![](IMG/expanded.PNG) |
